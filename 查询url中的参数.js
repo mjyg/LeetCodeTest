@@ -1,5 +1,5 @@
 //查询URL中的参数
-function getUrlQueryParams(url) {
+function url(url) {
   let args={};
   if (!url) {
     return args;
@@ -23,4 +23,4 @@ function getUrlQueryParams(url) {
   return args;
 }
 
-console.log(getUrlQueryParams('https://cn.bing.com/search-18A41D8D0F95C74D8?a=1&ab=2'));
+console.log(url('https://cn.bing.com/search-18A41D8D0F95C74D8?a=1&ab=2'));

@@ -1,3 +1,4 @@
+//判断二叉树是否存在路径根节点到叶子节点的和可以为某一个值
 function hasPath(root, value) {
   if (!root) return 0;
 

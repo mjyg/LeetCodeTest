@@ -1,5 +1,5 @@
 //思路：转成26进制数
-function numberToExcelColumn(n) {
+function excel(n) {
   let re = '';
   while (n > 0) {
     if (n % 26 === 0) {

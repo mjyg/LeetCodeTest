@@ -10,7 +10,7 @@ n 是正数且在32位整数范围内 
 说明:
 第11个数字在序列 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ... 里是0，它是10的一部分。
  */
-var findNthDigit = function (n) {
+var n = function (n) {
   //先求出该数所在区间的位数
   let bit = 1; //所在区间的位数
   let p = 9; //区间的长度
@@ -29,4 +29,4 @@ var findNthDigit = function (n) {
   return re;
 };
 
-console.log(findNthDigit(8));
+console.log(n(8));

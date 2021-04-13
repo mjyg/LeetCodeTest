@@ -1,16 +1,10 @@
-// Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
-
-// An input string is valid if:
-
-// Open brackets must be closed by the same type of brackets.
-// Open brackets must be closed in the correct order.
-// Note that an empty string is also considered valid.
-
-// Example 1:
-
-// Input: "()"
-// Output: true
-
+/*
+编写一个函数来查找字符串数组中的最长公共前缀。
+如果不存在公共前缀，返回空字符串 ""。
+示例 1：
+输入：strs = ["flower","flow","flight"]
+输出："fl"
+ */
 
 /**
  * @param {string[]} strs

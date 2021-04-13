@@ -2,7 +2,7 @@
 
 //方法1：暴力旋转，旋转k次，每次旋转1个元素
 //时间复杂度O(k*n),空间复杂度O(1)
-function rotateArray(nums, k) {
+function k(nums, k) {
   const len = nums.length;
   for (let i = 0; i < k % len; i++) {
     const last = nums[len - 1]; //保存最后一个元素，后面的元素依次前移一个
